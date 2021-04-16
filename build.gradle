@@ -1,0 +1,18 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.70'
+}
+
+group 'patterns'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    // picocli
+    implementation files('libs/picocli-4.6.1.jar')
+}
