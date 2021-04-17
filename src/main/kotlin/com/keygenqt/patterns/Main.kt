@@ -8,6 +8,7 @@ import com.keygenqt.patterns.pattern.adapter.DataMember
 import com.keygenqt.patterns.pattern.adapter.DataMemberToViewAdapter
 import com.keygenqt.patterns.pattern.adapter.Print
 import com.keygenqt.patterns.pattern.bridge.*
+import com.keygenqt.patterns.pattern.builder.*
 import com.keygenqt.patterns.pattern.singleton.Singleton
 import com.keygenqt.patterns.utils.*
 import picocli.CommandLine
@@ -119,7 +120,44 @@ class Arg : Callable<Int> {
                 macEdge.toggleEnable()
             }
             PATTERN_BUILDER -> {
-                println(PATTERN_BUILDER)
+
+                // build phone
+                val phone = DeviceBuilder().apply {
+                    setName("Mate 30 Pro 5G")
+                    setOs(DeviceOS.ANDROID)
+                    setCpu(DeviceCPU.KIRIN)
+                    setType(DeviceType.PHONE)
+                }.getResult()
+
+                println(phone.toString())
+                println("-----------------")
+
+                // build pc
+                val pc = DeviceBuilder().apply {
+                    setName("MacBook Air M1")
+                    setOs(DeviceOS.MACOS)
+                    setCpu(DeviceCPU.M1)
+                    setType(DeviceType.NOTEBOOK)
+                }.getResult()
+
+                println(pc.toString())
+                println("-----------------")
+
+                // build phone
+                val phoneDirector = DeviceDirector.createHuaweiPhone(DeviceBuilder()).apply {
+                    setName("Mate 30 Pro 5G")
+                }.getResult()
+
+
+                println(phoneDirector.toString())
+                println("-----------------")
+
+                // build pc
+                val pcDirector = DeviceDirector.createAppleNoteBook(DeviceBuilder()).apply {
+                    setName("MacBook Air M1")
+                }.getResult()
+
+                println(pcDirector.toString())
             }
             PATTERN_CHAIN_OF_RESPONSIBILITY -> {
                 println(PATTERN_CHAIN_OF_RESPONSIBILITY)
