@@ -7,6 +7,7 @@ import com.keygenqt.patterns.pattern.adapter.DataGuest
 import com.keygenqt.patterns.pattern.adapter.DataMember
 import com.keygenqt.patterns.pattern.adapter.DataMemberToViewAdapter
 import com.keygenqt.patterns.pattern.adapter.Print
+import com.keygenqt.patterns.pattern.bridge.*
 import com.keygenqt.patterns.pattern.singleton.Singleton
 import com.keygenqt.patterns.utils.*
 import picocli.CommandLine
@@ -83,7 +84,39 @@ class Arg : Callable<Int> {
                 print.show(adapter)
             }
             PATTERN_BRIDGE -> {
-                println(PATTERN_BRIDGE)
+                println()
+
+                // create actions
+                val windowsChrome = ActionBrowserWindows(BrowserChrome())
+                val linuxChrome = ActionBrowserLinux(BrowserChrome())
+                val macChrome = ActionBrowserMac(BrowserChrome())
+
+                // actions
+                windowsChrome.showName()
+                windowsChrome.toggleEnable()
+
+                linuxChrome.showName()
+                linuxChrome.toggleEnable()
+
+                macChrome.showName()
+                macChrome.toggleEnable()
+
+                println()
+
+                // create actions
+                val windowsEdge = ActionBrowserWindows(BrowserEdge())
+                val linuxEdge = ActionBrowserLinux(BrowserEdge())
+                val macEdge = ActionBrowserMac(BrowserEdge())
+
+                // actions
+                windowsEdge.showName()
+                windowsEdge.toggleEnable()
+
+                linuxEdge.showName()
+                linuxEdge.toggleEnable()
+
+                macEdge.showName()
+                macEdge.toggleEnable()
             }
             PATTERN_BUILDER -> {
                 println(PATTERN_BUILDER)
