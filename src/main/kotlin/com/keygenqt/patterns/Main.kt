@@ -7,6 +7,7 @@ import com.keygenqt.patterns.pattern.adapter.DataGuest
 import com.keygenqt.patterns.pattern.adapter.DataMember
 import com.keygenqt.patterns.pattern.adapter.DataMemberToViewAdapter
 import com.keygenqt.patterns.pattern.adapter.Print
+import com.keygenqt.patterns.pattern.singleton.Singleton
 import com.keygenqt.patterns.utils.*
 import picocli.CommandLine
 import picocli.CommandLine.Command
@@ -130,7 +131,14 @@ class Arg : Callable<Int> {
                 println(PATTERN_PROXY)
             }
             PATTERN_SINGLETON -> {
-                println(PATTERN_SINGLETON)
+                val singleton1 = Singleton.getInstance()
+                println("getInstance() 1")
+                val singleton2 = Singleton.getInstance()
+                println("getInstance() 2")
+                val singleton3 = Singleton.getInstance()
+                println("getInstance() 3")
+                val singleton4 = Singleton.getInstance()
+                println("getInstance() 4")
             }
             PATTERN_STATE -> {
                 println(PATTERN_STATE)

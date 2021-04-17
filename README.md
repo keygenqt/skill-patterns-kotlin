@@ -6,6 +6,7 @@ Examples of Reusable Design Patterns
 #### Done
 * [Abstract factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
 * [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern)
+* [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 #### Coming soon
 * [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern)
@@ -24,7 +25,6 @@ Examples of Reusable Design Patterns
 * [Observer](https://en.wikipedia.org/wiki/Observer_pattern)
 * [Prototype](https://en.wikipedia.org/wiki/Prototype_pattern)
 * [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
-* [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
 * [State](https://en.wikipedia.org/wiki/State_pattern)
 * [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
 * [Template Method](https://en.wikipedia.org/wiki/Template_method_pattern)
