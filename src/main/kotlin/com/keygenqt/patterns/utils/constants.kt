@@ -1,7 +1,7 @@
 package com.keygenqt.patterns.utils
 
 const val PATTERN_ABSTRACT_FACTORY = "Abstract Factory"
-const val PATTERN_ADAPTER = "Abstract"
+const val PATTERN_ADAPTER = "Adapter"
 const val PATTERN_BRIDGE = "Bridge"
 const val PATTERN_BUILDER = "Builder"
 const val PATTERN_CHAIN_OF_RESPONSIBILITY = "Chain of Responsibility"

@@ -3,6 +3,10 @@ package com.keygenqt.patterns
 import com.keygenqt.patterns.pattern.abstract_factory.factories.BootstrapFactory
 import com.keygenqt.patterns.pattern.abstract_factory.factories.MaterialFactory
 import com.keygenqt.patterns.pattern.abstract_factory.interfaces.WidgetsFactory
+import com.keygenqt.patterns.pattern.adapter.DataGuest
+import com.keygenqt.patterns.pattern.adapter.DataMember
+import com.keygenqt.patterns.pattern.adapter.DataMemberToViewAdapter
+import com.keygenqt.patterns.pattern.adapter.Print
 import com.keygenqt.patterns.utils.*
 import picocli.CommandLine
 import picocli.CommandLine.Command
@@ -45,6 +49,9 @@ class Arg : Callable<Int> {
     var pattern = PATTERN_ABSTRACT_FACTORY
 
     override fun call(): Int {
+
+        println("Pattern: $pattern")
+
         when (pattern) {
             PATTERN_ABSTRACT_FACTORY -> {
                 // create random factory type
@@ -59,7 +66,20 @@ class Arg : Callable<Int> {
                 println(wf.createSelect().name())
             }
             PATTERN_ADAPTER -> {
-                println(PATTERN_ADAPTER)
+
+                val print = Print()
+                val guest = DataGuest()
+                val member = DataMember()
+
+                // show class with interface DataView
+                print.show(guest)
+
+                // print.show(member) - Not working, member does not have interface DataView
+                // use adapter
+                val adapter = DataMemberToViewAdapter(member)
+
+                // show class member
+                print.show(adapter)
             }
             PATTERN_BRIDGE -> {
                 println(PATTERN_BRIDGE)

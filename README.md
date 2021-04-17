@@ -5,9 +5,9 @@ Examples of Reusable Design Patterns
 
 #### Done
 * [Abstract factory](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+* [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern)
 
 #### Coming soon
-* [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern)
 * [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern)
 * [Builder](https://en.wikipedia.org/wiki/Builder_pattern)
 * [Chain of Responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
