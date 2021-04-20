@@ -9,10 +9,10 @@ Examples of Reusable Design Patterns
 * [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern)
 * [Builder](https://en.wikipedia.org/wiki/Builder_pattern)
 * [Chain of Responsibility](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+* [Command](https://en.wikipedia.org/wiki/Command_pattern)
 * [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 #### Coming soon
-* [Command](https://en.wikipedia.org/wiki/Command_pattern)
 * [Composite](https://en.wikipedia.org/wiki/Composite_pattern)
 * [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern)
 * [Facade](https://en.wikipedia.org/wiki/Facade_pattern)
