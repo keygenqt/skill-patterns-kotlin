@@ -13,11 +13,11 @@ Examples of Reusable Design Patterns
 * [Composite](https://en.wikipedia.org/wiki/Composite_pattern)
 * [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern)
 * [Facade](https://en.wikipedia.org/wiki/Facade_pattern)
+* [Factory Method](https://en.wikipedia.org/wiki/Factory_method_pattern)
+* [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern)
 * [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 #### Coming soon
-* [Factory Method](https://en.wikipedia.org/wiki/Factory_method_pattern)
-* [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern)
 * [Interpreter](https://en.wikipedia.org/wiki/Interpreter_pattern)
 * [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern)
 * [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern)
