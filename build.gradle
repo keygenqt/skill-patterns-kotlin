@@ -15,4 +15,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     // picocli
     implementation files('libs/picocli-4.6.1.jar')
+    // json
+    implementation 'com.google.code.gson:gson:2.8.2'
 }
