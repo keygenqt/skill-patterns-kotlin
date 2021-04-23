@@ -16,12 +16,12 @@ Examples of Reusable Design Patterns
 * [Factory Method](https://en.wikipedia.org/wiki/Factory_method_pattern)
 * [Flyweight](https://en.wikipedia.org/wiki/Flyweight_pattern)
 * [Interpreter](https://en.wikipedia.org/wiki/Interpreter_pattern)
+* [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern)
 * [Prototype](https://en.wikipedia.org/wiki/Prototype_pattern)
 * [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 #### Coming soon
 * [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern)
-* [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern)
 * [Memento](https://en.wikipedia.org/wiki/Memento_pattern)
 * [Observer](https://en.wikipedia.org/wiki/Observer_pattern)
 * [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
