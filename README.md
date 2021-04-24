@@ -19,10 +19,10 @@ Examples of Reusable Design Patterns
 * [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern)
 * [Prototype](https://en.wikipedia.org/wiki/Prototype_pattern)
 * [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
+* [Memento](https://en.wikipedia.org/wiki/Memento_pattern)
 
 #### Coming soon
 * [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern)
-* [Memento](https://en.wikipedia.org/wiki/Memento_pattern)
 * [Observer](https://en.wikipedia.org/wiki/Observer_pattern)
 * [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
 * [State](https://en.wikipedia.org/wiki/State_pattern)
