@@ -21,11 +21,11 @@ Examples of Reusable Design Patterns
 * [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
 * [Memento](https://en.wikipedia.org/wiki/Memento_pattern)
 * [Proxy](https://en.wikipedia.org/wiki/Proxy_pattern)
+* [Visitor](https://en.wikipedia.org/wiki/Visitor_pattern)
+* [Template Method](https://en.wikipedia.org/wiki/Template_method_pattern)
 
 #### Coming soon
 * [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern)
 * [Observer](https://en.wikipedia.org/wiki/Observer_pattern)
 * [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
-* [Template Method](https://en.wikipedia.org/wiki/Template_method_pattern)
-* [Visitor](https://en.wikipedia.org/wiki/Visitor_pattern)
 * [State](https://en.wikipedia.org/wiki/State_pattern)
