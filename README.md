@@ -24,8 +24,8 @@ Examples of Reusable Design Patterns
 * [Visitor](https://en.wikipedia.org/wiki/Visitor_pattern)
 * [Template Method](https://en.wikipedia.org/wiki/Template_method_pattern)
 * [Observer](https://en.wikipedia.org/wiki/Observer_pattern)
+* [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern)
 
 #### Coming soon
-* [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern)
 * [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
 * [State](https://en.wikipedia.org/wiki/State_pattern)
