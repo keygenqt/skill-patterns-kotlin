@@ -23,9 +23,9 @@ Examples of Reusable Design Patterns
 * [Prototype](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/prototype/Runner.kt#L5)
 * [Proxy](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/proxy/Runner.kt#L5)
 * [Singleton](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/singleton/Runner.kt#L5)
+* [Strategy](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/strategy/Runner.kt#L5)
 * [Template Method](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/template_method/Runner.kt#L5)
 * [Visitor](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/visitor/Runner.kt#L5)
 
 #### Coming soon
-* [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern)
 * [State](https://en.wikipedia.org/wiki/State_pattern)
