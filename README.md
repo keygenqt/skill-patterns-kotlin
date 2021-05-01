@@ -1,9 +1,7 @@
 Patterns
 ===================
 
-Examples of Reusable Design Patterns
-
-#### Done
+Examples classic OOP design patterns
 
 * [Abstract factory](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/abstract_factory/Runner.kt#L9)
 * [Adapter](https://github.com/keygenqt/skill-patterns/blob/master/src/main/kotlin/com/keygenqt/patterns/pattern/adapter/Runner.kt#L5)
