@@ -7,8 +7,7 @@ import picocli.CommandLine.Option
 import java.util.concurrent.Callable
 import kotlin.system.exitProcess
 
-@Command(
-    name = "patterns", mixinStandardHelpOptions = true, version = ["patterns 1.0"], description = ["""
+const val description = """
 Examples of Reusable Design Patterns:
 * "$PATTERN_ABSTRACT_FACTORY"
 * "$PATTERN_ADAPTER"
@@ -33,7 +32,10 @@ Examples of Reusable Design Patterns:
 * "$PATTERN_STRATEGY"
 * "$PATTERN_TEMPLATE_METHOD"
 * "$PATTERN_VISITOR"
-"""]
+"""
+
+@Command(
+    name = "patterns", mixinStandardHelpOptions = true, version = ["patterns 1.0"], description = [description]
 )
 class Arg : Callable<Int> {
 
@@ -42,7 +44,7 @@ class Arg : Callable<Int> {
 
     override fun call(): Int {
         println("Pattern: $pattern")
-        Runner.getRunner(pattern)?.run()
+        Runner.getRunner(pattern)?.run() ?: println("Pattern not found!: $pattern.\n$description")
         return 0
     }
 }
