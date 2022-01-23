@@ -17,20 +17,20 @@ Examples classic OOP design patterns
 * [Visitor](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/visitor)
 
 ### Creational
-* [Abstract factory](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/abstract_factory)
-* [Builder](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/builder)
-* [Factory Method](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/factory_method)
-* [Prototype](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/prototype)
-* [Singleton](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/singleton)
+* [Abstract factory](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/creational/abstract_factory)
+* [Builder](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/creational/builder)
+* [Factory Method](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/creational/factory_method)
+* [Prototype](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/creational/prototype)
+* [Singleton](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/creational/singleton)
 
 ### Structural
-* [Adapter](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/adapter)
-* [Bridge](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/bridge)
-* [Composite](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/composite)
-* [Decorator](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/decorator)
-* [Facade](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/facade)
-* [Flyweight](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/flyweight)
-* [Proxy](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/behavioral/proxy)
+* [Adapter](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/structural/adapter)
+* [Bridge](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/structural/bridge)
+* [Composite](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/structural/composite)
+* [Decorator](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/structural/decorator)
+* [Facade](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/structural/facade)
+* [Flyweight](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/structural/flyweight)
+* [Proxy](https://github.com/keygenqt/skill-patterns-kotlin/tree/master/src/main/kotlin/com/keygenqt/patterns/pattern/structural/proxy)
 
 #### Run example
 
