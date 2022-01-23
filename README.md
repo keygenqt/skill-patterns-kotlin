@@ -1,4 +1,4 @@
-Patterns
+Patterns In Kotlin
 ===================
 
 Examples classic OOP design patterns
